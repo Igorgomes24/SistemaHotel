@@ -4,56 +4,81 @@
   <NonVisualComponents>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="jMenu2">
+        <Menu class="javax.swing.JMenu" name="menuCadastrar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Reservas   |"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/cadastro.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cadastro   |"/>
           </Properties>
           <SubComponents>
-            <Menu class="javax.swing.JMenu" name="jMenu10">
+            <Menu class="javax.swing.JMenu" name="menuHospede">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Hospedes"/>
+                <Property name="text" type="java.lang.String" value="Hospede"/>
               </Properties>
               <SubComponents>
-                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+                <MenuItem class="javax.swing.JMenuItem" name="menuCadHospede">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Cadastrar"/>
                   </Properties>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+                <MenuItem class="javax.swing.JMenuItem" name="menuConHospede">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Consultar"/>
                   </Properties>
                 </MenuItem>
               </SubComponents>
             </Menu>
+            <Menu class="javax.swing.JMenu" name="menuQuarto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quarto"/>
+              </Properties>
+            </Menu>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu3">
+        <Menu class="javax.swing.JMenu" name="menuReserva">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/reservas.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Reservas   |"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuConsumo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/consumo.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Consumo   |"/>
           </Properties>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu4">
+        <Menu class="javax.swing.JMenu" name="menuFinanceiro">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/financeiro.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Financeiro   |"/>
           </Properties>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu5">
+        <Menu class="javax.swing.JMenu" name="menuRelatorio">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/relatorios.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Relatorio   |"/>
           </Properties>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu6">
+        <Menu class="javax.swing.JMenu" name="menuSeguranca">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Seguranca   |"/>
+            <Property name="text" type="java.lang.String" value="Seguran&#xe7;a   |"/>
           </Properties>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu7">
+        <Menu class="javax.swing.JMenu" name="menuFerramenta">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Ferramentas   |"/>
+            <Property name="text" type="java.lang.String" value="Ferramenta   |"/>
           </Properties>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu8">
+        <Menu class="javax.swing.JMenu" name="menuSair">
           <Properties>
             <Property name="text" type="java.lang.String" value="Sair"/>
           </Properties>
@@ -89,7 +114,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="449" max="32767" attributes="0"/>
+          <EmptySpace min="0" pref="433" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
