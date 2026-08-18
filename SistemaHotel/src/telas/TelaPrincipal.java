@@ -34,6 +34,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menuCadHospede = new javax.swing.JMenuItem();
         menuConHospede = new javax.swing.JMenuItem();
         menuQuarto = new javax.swing.JMenu();
+        jMenu1 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenu4 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
+        jMenu3 = new javax.swing.JMenu();
         menuReserva = new javax.swing.JMenu();
         menuConsumo = new javax.swing.JMenu();
         menuFinanceiro = new javax.swing.JMenu();
@@ -47,18 +53,45 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menuCadastrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cadastro.png"))); // NOI18N
         menuCadastrar.setText("Cadastro   |");
 
+        menuHospede.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icon_hospede.png"))); // NOI18N
         menuHospede.setText("Hospede");
 
+        menuCadHospede.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icon_quarto.png"))); // NOI18N
         menuCadHospede.setText("Cadastrar");
         menuHospede.add(menuCadHospede);
 
+        menuConHospede.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/search_locate_find_6278_20x20.png"))); // NOI18N
         menuConHospede.setText("Consultar");
         menuHospede.add(menuConHospede);
 
         menuCadastrar.add(menuHospede);
 
+        menuQuarto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icon_quarto.png"))); // NOI18N
         menuQuarto.setText("Quarto");
         menuCadastrar.add(menuQuarto);
+
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icon_funcionario.png"))); // NOI18N
+        jMenu1.setText("Funcionario");
+
+        jMenuItem1.setText("Cadastrar");
+        jMenu1.add(jMenuItem1);
+
+        jMenuItem2.setText("Consultar");
+        jMenu1.add(jMenuItem2);
+
+        menuCadastrar.add(jMenu1);
+
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icon_fornecedor.png"))); // NOI18N
+        jMenu4.setText("Fornecedor");
+        menuCadastrar.add(jMenu4);
+
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/ico_produto 20x20.png"))); // NOI18N
+        jMenu2.setText("Produtos");
+        menuCadastrar.add(jMenu2);
+
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icon_servicos.png"))); // NOI18N
+        jMenu3.setText("Serviços");
+        menuCadastrar.add(jMenu3);
 
         jMenuBar1.add(menuCadastrar);
 
@@ -78,12 +111,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menuRelatorio.setText("Relatorio   |");
         jMenuBar1.add(menuRelatorio);
 
+        menuSeguranca.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/seguranca.png"))); // NOI18N
         menuSeguranca.setText("Segurança   |");
         jMenuBar1.add(menuSeguranca);
 
+        menuFerramenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/ferramentas.png"))); // NOI18N
         menuFerramenta.setText("Ferramenta   |");
         jMenuBar1.add(menuFerramenta);
 
+        menuSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/sair.png"))); // NOI18N
         menuSair.setText("Sair");
         jMenuBar1.add(menuSair);
 
@@ -93,7 +129,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 687, Short.MAX_VALUE)
+            .addGap(0, 1172, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -129,7 +165,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem menuCadHospede;
     private javax.swing.JMenu menuCadastrar;
     private javax.swing.JMenuItem menuConHospede;
