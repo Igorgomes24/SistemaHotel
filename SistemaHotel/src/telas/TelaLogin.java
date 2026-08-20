@@ -41,7 +41,7 @@ public class TelaLogin extends javax.swing.JFrame {
         setTitle("Hotel Monteiro - Login");
         setResizable(false);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/telas/Logo1.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Logo1.png"))); // NOI18N
 
         jLabel1.setText("Login");
 
